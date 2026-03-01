@@ -17,7 +17,7 @@ class ProfileActivity: AppCompatActivity() {
         val rv = findViewById<RecyclerView>(R.id.rvWorkExperience)
         rv.layoutManager = LinearLayoutManager(this)
         rv.adapter = WorkExperienceAdapter(WorkExperienceData.experience)
-        val toolbar = findViewById<Toolbar>(R.id.toolbar)
+        val toolbar = findViewById<Toolbar>(R.id.profile_toolbar)
         setSupportActionBar(toolbar)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
     }

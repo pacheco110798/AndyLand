@@ -11,9 +11,9 @@ import com.example.andyland.data.WorkExperience
 //we'll create this adapter separateley to make it easier to maintain
 //separamos el adaptador de actividad principal para que sea más fácil de manter
 
-class WorkExperienceAdapter(private val experiences: List<WorkExperience>):
+class WorkExperienceAdapter(private val experiences: List<WorkExperience>) :
     RecyclerView.Adapter<WorkExperienceAdapter.ViewHolder>() {
-    class ViewHolder(itemView: View): RecyclerView.ViewHolder(itemView){
+    class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val tvCompanyPosition: TextView = itemView.findViewById(R.id.tvCompanyPosition)
         val tvDuration: TextView = itemView.findViewById(R.id.tvDuration)
         val tvDescription: TextView = itemView.findViewById(R.id.tvDescription)
