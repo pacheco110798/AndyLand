@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AndyLand</string>
+    <string name="andrea_rodriguez">Andrea Rodríguez</string>
+    <string name="centro_universitario_tijuana">Centro Universitario de Tijuana</string>
+    <string name="education">Education</string>
+    <string name="degree">BS. Information Technology</string>
+    <string name="city">Tijuana B.C.</string>
+    <string name="company_position">Company - Position</string>
+    <string name="about_andy">About Andy</string>
+    <string name="countries">Countries</string>
+    <string name="about_me">About Me</string>
+    <string name="smiling_happy_andy">Smiling happy Andy</string>
+</resources>
