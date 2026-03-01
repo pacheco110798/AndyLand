@@ -17,11 +17,12 @@ class CountryListActivity : AppCompatActivity() {
         rv.adapter = CountryAdapter(countries);
         val toolbar = findViewById<Toolbar>(R.id.toolbar_countries)
         setSupportActionBar(toolbar)
+        supportActionBar?.title = " Countries";
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
     }
 
     override fun onSupportNavigateUp(): Boolean {
-        finish() // go back to previous activity
+        finish() // go back to home activity -volver a pantalla principa
         return true
     }
 }

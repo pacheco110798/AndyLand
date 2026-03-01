@@ -7,18 +7,16 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <Button
-            android:id="@+id/btnProfile"
-            android:text="@string/about_andy"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            />
+    <Button
+        android:id="@+id/btnProfile"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:text="@string/about_andy" />
 
-        <Button
-            android:id="@+id/btnCountries"
-            android:text="@string/countries"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            />
+    <Button
+        android:id="@+id/btnCountries"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:text="@string/countries" />
 
 </LinearLayout>

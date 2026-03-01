@@ -21,5 +21,6 @@
         </activity>
         <activity android:name=".ProfileActivity"/>
         <activity android:name=".CountryListActivity"/>
+        <activity android:name=".CountryDetailActivity"/>
     </application>
 </manifest>

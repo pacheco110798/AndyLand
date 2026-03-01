@@ -7,7 +7,6 @@ import androidx.appcompat.widget.Toolbar
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.andyland.adapters.WorkExperienceAdapter
-import com.example.andyland.data.WorkExperience
 import com.example.andyland.data.WorkExperienceData
 
 class ProfileActivity: AppCompatActivity() {
@@ -19,11 +18,12 @@ class ProfileActivity: AppCompatActivity() {
         rv.adapter = WorkExperienceAdapter(WorkExperienceData.experience)
         val toolbar = findViewById<Toolbar>(R.id.profile_toolbar)
         setSupportActionBar(toolbar)
+        supportActionBar?.title = " About me";
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
     }
 
     override fun onSupportNavigateUp(): Boolean {
-        finish() // go back to previous activity
+        finish() // go back to previous activity - regresar a activity previo
         return true
     }
 

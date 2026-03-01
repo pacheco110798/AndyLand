@@ -19,13 +19,13 @@ class MainActivity : AppCompatActivity() {
             insets
         }
         findViewById<Button>(R.id.btnProfile).setOnClickListener {
-            // Navigate to ProfileActivity
+            // Navigate to ProfileActivity - Navega a perfil
             val intent = Intent(this, ProfileActivity::class.java)
             startActivity(intent)
         }
 
         findViewById<Button>(R.id.btnCountries).setOnClickListener {
-            // Navigate to ProfileActivity
+            // Navigate to CountryListActivity - navega a lista de países
             val intent = Intent(this, CountryListActivity::class.java)
             startActivity(intent)
         }
